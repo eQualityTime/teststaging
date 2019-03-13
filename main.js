@@ -3684,7 +3684,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 function registerServiceWorker(swName) {
     if (_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].production && 'serviceWorker' in navigator) {
         navigator.serviceWorker
-            .register("/ovfplayer/" + swName + ".js")
+            .register("/teststaging/" + swName + ".js")
             .then(function (reg) {
             console.log('Successful service worker registration', reg);
         })
