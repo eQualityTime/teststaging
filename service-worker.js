@@ -12,7 +12,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "index.html",
-    "revision": "1729109e6c5f8c32b13ac6b3edc08622"
+    "revision": "9c88e822299bb985c2aa34f2295f3a1d"
   },
   {
     "url": "polyfills.8beab544b88ea4601165.js"
@@ -70,5 +70,9 @@ workbox.precaching.precacheAndRoute([
   {
     "url": "assets/images/speechbubble.png",
     "revision": "cdb493a1f0fae3e9e51debd026edcd22"
+  },
+  {
+    "url": "assets/images/undo.png",
+    "revision": "810bdff06a59376e5897abcd358ea434"
   }
 ]);
