@@ -517,9 +517,9 @@ maintained libraries used by this software which have their own
 licenses; we recommend you read them, as their terms may differ from the
 terms above.
 
-lodash.merge@4.6.1
+lodash.merge@4.6.2
 MIT
-Copyright JS Foundation and other contributors <https://js.foundation/>
+Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
 
 Based on Underscore.js, copyright Jeremy Ashkenas,
 DocumentCloud and Investigative Reporters & Editors <http://underscorejs.org/>
