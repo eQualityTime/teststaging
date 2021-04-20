@@ -12,7 +12,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "index.html",
-    "revision": "f3dcc5f235642d22d74dad1b1186cb34"
+    "revision": "1ef65eb553cca14445cee0065c58397b"
   },
   {
     "url": "polyfills.8beab544b88ea4601165.js"
@@ -21,7 +21,7 @@ workbox.precaching.precacheAndRoute([
     "url": "runtime.8c26f1fab6959b00a997.js"
   },
   {
-    "url": "styles.3eff4f0b560565aa3ccb.css"
+    "url": "styles.e748a9198868e8e409cb.css"
   },
   {
     "url": "assets/icons/icon-128x128.png",
