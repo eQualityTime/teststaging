@@ -115348,7 +115348,15 @@ __webpack_require__.r(__webpack_exports__);
 // IMPORTANT: THIS FILE IS AUTO GENERATED! DO NOT MANUALLY EDIT OR CHECKIN!
 /* tslint:disable */
 var VERSION = {
-    "tag": "DEV ONLY"
+    "dirty": true,
+    "raw": "bc3509e-dirty",
+    "hash": "bc3509e",
+    "distance": null,
+    "tag": null,
+    "semver": null,
+    "suffix": "bc3509e-dirty",
+    "semverString": null,
+    "version": "0.0.0"
 };
 /* tslint:enable */
 
@@ -115422,10 +115430,10 @@ function registerServiceWorker(swName) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/vsts/work/1/s/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /home/runner/work/ovfplayer/ovfplayer/src/main.ts */"./src/main.ts");
 
 
 /***/ })
 
 },[[0,"runtime"]]]);
-//# sourceMappingURL=main.b909870459afe9f3f53e.js.map
+//# sourceMappingURL=main.1b450b7dcc000ccd4921.js.map
