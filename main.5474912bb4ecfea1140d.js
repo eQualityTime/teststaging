@@ -115347,7 +115347,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VERSION", function() { return VERSION; });
 // IMPORTANT: THIS FILE IS AUTO GENERATED! DO NOT MANUALLY EDIT OR CHECKIN!
 /* tslint:disable */
-var VERSION = { "tag": "" };
+var VERSION = { "tag": "Development only: a2be8529edc52ce276ab45b63ef4bfea50a63f55" };
 /* tslint:enable */
 
 
@@ -115426,4 +115426,4 @@ module.exports = __webpack_require__(/*! /home/runner/work/ovfplayer/ovfplayer/s
 /***/ })
 
 },[[0,"runtime"]]]);
-//# sourceMappingURL=main.ea2b6be50c85d347e34c.js.map
+//# sourceMappingURL=main.5474912bb4ecfea1140d.js.map
