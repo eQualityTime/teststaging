@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/error-page/error-page.component.css"],
+  "sourcesContent": ["/* ::START::LICENCE::\nCopyright eQualityTime \u00A92018, \u00A92019, \u00A92020, \u00A92021, \u00A92022, \u00A92023, \u00A92024, \u00A92025\nThis file is part of OVFPlayer.\nOVFPlayer is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\nOVFPlayer is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\nYou should have received a copy of the GNU General Public License\nalong with OVFPlayer.  If not, see <https://www.gnu.org/licenses/>.\n::END::LICENCE:: */\n.errorCard {\n  margin: 100px;\n}\n\n.label {\n  font-weight: bold;\n  font-size: larger;\n  vertical-align: top;\n}\n\n.message {\n  background-color: #eee;\n  border: lightgrey solid 1px;\n  padding: 1em;\n  margin: 0px;\n  white-space: pre-wrap;\n}\n\ntd {\n  padding: 1em;\n}\n"],
+  "mappings": ";AAcA,CAAC;AACC,UAAQ;AACV;AAEA,CAAC;AACC,eAAa;AACb,aAAW;AACX,kBAAgB;AAClB;AAEA,CAAC;AACC,oBAAkB;AAClB,UAAQ,UAAU,MAAM;AACxB,WAAS;AACT,UAAQ;AACR,eAAa;AACf;AAEA;AACE,WAAS;AACX;",
+  "names": []
+}

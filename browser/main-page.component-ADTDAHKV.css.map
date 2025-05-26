@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/main-page/main-page.component.css"],
+  "sourcesContent": ["/* ::START::LICENCE::\nCopyright eQualityTime \u00A92018, \u00A92019, \u00A92020, \u00A92021, \u00A92022, \u00A92023, \u00A92024, \u00A92025\nThis file is part of OVFPlayer.\nOVFPlayer is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\nOVFPlayer is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\nYou should have received a copy of the GNU General Public License\nalong with OVFPlayer.  If not, see <https://www.gnu.org/licenses/>.\n::END::LICENCE:: */\n.speechbar {\n  height: 20vh;\n}\n\n.buttonPage {\n  height: 80vh;\n}\n\n.scanRegion {\n  position: relative;\n}\n\n.scanRegion:after {\n  content: \" \";\n  position: absolute;\n  z-index: 10;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n}\n"],
+  "mappings": ";AAcA,CAAC;AACC,UAAQ;AACV;AAEA,CAAC;AACC,UAAQ;AACV;AAEA,CAAC;AACC,YAAU;AACZ;AAEA,CAJC,UAIU;AACT,WAAS;AACT,YAAU;AACV,WAAS;AACT,OAAK;AACL,QAAM;AACN,SAAO;AACP,UAAQ;AACV;",
+  "names": []
+}
