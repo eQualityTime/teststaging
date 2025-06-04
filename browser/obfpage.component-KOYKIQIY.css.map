@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["angular:styles/component:css;b9a964a1adadcf5e3dd052fb583cc2ed412802c92e1cc743a8786528d657bebb;/home/runner/work/ovfplayer/ovfplayer/src/app/obfpage/obfpage.component.ts"],
-  "sourcesContent": ["\n    .obfpage {\n      width: 100%;\n      height: 100%;\n      background-color: lightsteelblue;\n      position: absolute;\n    }\n    .inner {\n      margin: 20px;\n    }\n  "],
-  "mappings": ";AACI,CAAC;AACC,SAAO;AACP,UAAQ;AACR,oBAAkB;AAClB,YAAU;AACZ;AACA,CAAC;AACC,UAAQ;AACV;",
-  "names": []
-}
