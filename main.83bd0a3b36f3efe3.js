@@ -22846,11 +22846,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   BoardCacheService: () => (/* binding */ BoardCacheService)
 /* harmony export */ });
 /* harmony import */ var _obzboard_set__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../obzboard-set */ 9677);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ 2435);
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ 271);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ 2435);
 /* harmony import */ var _obfboard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../obfboard */ 8903);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 7580);
-/* harmony import */ var _ngx_pwa_local_storage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ngx-pwa/local-storage */ 141);
+/* harmony import */ var _environments_version__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../environments/version */ 3653);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 7580);
+/* harmony import */ var _ngx_pwa_local_storage__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ngx-pwa/local-storage */ 141);
+
 
 
 
@@ -22864,12 +22866,15 @@ let BoardCacheService = /*#__PURE__*/(() => {
     constructor(localStorage) {
       this.localStorage = localStorage;
     }
+    getCacheKey() {
+      return BoardCacheService.BOARD_CACHE_KEY + (_environments_version__WEBPACK_IMPORTED_MODULE_2__.VERSION.tag.startsWith('DEV') ? 'DEV' : '');
+    }
     clear() {
       this.log('Clearing local board cache');
-      return this.localStorage.delete(BoardCacheService.BOARD_CACHE_KEY).pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_2__.first)());
+      return this.localStorage.delete(this.getCacheKey());
     }
     retrieve() {
-      return this.localStorage.get(BoardCacheService.BOARD_CACHE_KEY).pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_3__.map)(data => {
+      return this.localStorage.get(this.getCacheKey()).pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_3__.map)(data => {
         if (data) {
           this.log('Successfully loaded board from cache');
           // TODO: move this to static method inside OBZBoardSet?
@@ -22892,21 +22897,21 @@ let BoardCacheService = /*#__PURE__*/(() => {
           this.log('Cache is empty');
           throw new Error('Cache is empty');
         }
-      }), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_2__.first)());
+      }), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_4__.first)());
     }
     save(boardSet) {
-      return this.localStorage.set(BoardCacheService.BOARD_CACHE_KEY, boardSet).pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_3__.map)(success => boardSet), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_2__.first)());
+      return this.localStorage.set(this.getCacheKey(), boardSet).pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_3__.map)(success => boardSet), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_4__.first)());
     }
     log(message) {
       console.log(`BoardCacheService: ${message}`);
     }
     static {
       this.ɵfac = function BoardCacheService_Factory(__ngFactoryType__) {
-        return new (__ngFactoryType__ || BoardCacheService)(_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵinject"](_ngx_pwa_local_storage__WEBPACK_IMPORTED_MODULE_5__.StorageMap));
+        return new (__ngFactoryType__ || BoardCacheService)(_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵinject"](_ngx_pwa_local_storage__WEBPACK_IMPORTED_MODULE_6__.StorageMap));
       };
     }
     static {
-      this.ɵprov = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineInjectable"]({
+      this.ɵprov = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineInjectable"]({
         token: BoardCacheService,
         factory: BoardCacheService.ɵfac,
         providedIn: 'root'
@@ -22991,49 +22996,19 @@ class ButtonFacade extends _obfboard__WEBPACK_IMPORTED_MODULE_0__.Button {
   constructor(button) {
     super();
     this.appendages = [];
-    this.button = button;
+    // copies all the button properties into this "facade" because we can't override properties with accessors
+    this.deserialize(JSON.parse(JSON.stringify(button)), button.parent);
   }
   append(appendage) {
     this.appendages.push(appendage);
-  }
-  getVocalization() {
-    return this.vocalization || this.label;
-  }
-  getImage() {
-    return this.button.getImage();
+    this.update();
   }
   augment(initial) {
     return [initial].concat(this.appendages).join('');
   }
-  get id() {
-    return this.button.id;
-  }
-  get label() {
-    return this.augment(this.button.label);
-  }
-  get vocalization() {
-    return this.button.vocalization ? this.augment(this.button.vocalization) : this.button.vocalization;
-  }
-  get imageId() {
-    return this.button.imageId;
-  }
-  get soundId() {
-    return this.button.soundId;
-  }
-  get backgroundColor() {
-    return this.button.backgroundColor;
-  }
-  get borderColor() {
-    return this.button.borderColor;
-  }
-  get actions() {
-    return this.button.actions;
-  }
-  get loadBoardAction() {
-    return this.button.loadBoardAction;
-  }
-  get parent() {
-    return this.button.parent;
+  update() {
+    this.label = this.augment(this.label);
+    this.vocalization = this.vocalization ? this.augment(this.vocalization) : this.vocalization;
   }
 }
 let SpeechbarService = /*#__PURE__*/(() => {
@@ -38080,7 +38055,7 @@ __webpack_require__.r(__webpack_exports__);
 // IMPORTANT: THIS FILE IS AUTO GENERATED! DO NOT MANUALLY EDIT OR CHECKIN!
 /* tslint:disable */
 const VERSION = {
-  "tag": "DEV 506c8194c5391493191067f3606ba409276ecf78"
+  "tag": "DEV 10c8911584d55b2ec33c2e54b670669689f6e7f0"
 };
 /* tslint:enable */
 
@@ -141221,66 +141196,6 @@ __decorate([(0,_custom_validation__WEBPACK_IMPORTED_MODULE_2__.OneOf)(['url', 'd
 __decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_0__.IsOptional)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_0__.IsUrl)()], LoadBoardAction.prototype, "url", void 0);
 __decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_0__.IsOptional)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_0__.IsUrl)()], LoadBoardAction.prototype, "dataUrl", void 0);
 class Button {
-  get id() {
-    return this._id;
-  }
-  set id(value) {
-    this._id = value;
-  }
-  get label() {
-    return this._label;
-  }
-  set label(value) {
-    this._label = value;
-  }
-  get vocalization() {
-    return this._vocalization;
-  }
-  set vocalization(value) {
-    this._vocalization = value;
-  }
-  get imageId() {
-    return this._imageId;
-  }
-  set imageId(value) {
-    this._imageId = value;
-  }
-  get soundId() {
-    return this._soundId;
-  }
-  set soundId(value) {
-    this._soundId = value;
-  }
-  get backgroundColor() {
-    return this._backgroundColor;
-  }
-  set backgroundColor(value) {
-    this._backgroundColor = value;
-  }
-  get borderColor() {
-    return this._borderColor;
-  }
-  set borderColor(value) {
-    this._borderColor = value;
-  }
-  get actions() {
-    return this._actions;
-  }
-  set actions(value) {
-    this._actions = value;
-  }
-  get loadBoardAction() {
-    return this._loadBoardAction;
-  }
-  set loadBoardAction(value) {
-    this._loadBoardAction = value;
-  }
-  get parent() {
-    return this._parent;
-  }
-  set parent(value) {
-    this._parent = value;
-  }
   deserialize(input, parent) {
     this.id = stringify(input.id);
     this.label = input.label;
@@ -141311,12 +141226,12 @@ __decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_0__.IsNotEmpty)({
   message: 'Button id must be specified'
 }), (0,class_validator__WEBPACK_IMPORTED_MODULE_0__.IsString)({
   message: 'Button id must be a string'
-})], Button.prototype, "_id", void 0);
-__decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_0__.IsNotEmpty)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_0__.IsString)()], Button.prototype, "_label", void 0);
-__decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_0__.IsOptional)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_0__.IsString)()], Button.prototype, "_vocalization", void 0);
-__decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_0__.IsOptional)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_0__.IsString)()], Button.prototype, "_imageId", void 0);
-__decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_0__.IsOptional)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_0__.IsString)()], Button.prototype, "_soundId", void 0);
-__decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_0__.IsDefined)()], Button.prototype, "_parent", void 0);
+})], Button.prototype, "id", void 0);
+__decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_0__.IsNotEmpty)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_0__.IsString)()], Button.prototype, "label", void 0);
+__decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_0__.IsOptional)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_0__.IsString)()], Button.prototype, "vocalization", void 0);
+__decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_0__.IsOptional)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_0__.IsString)()], Button.prototype, "imageId", void 0);
+__decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_0__.IsOptional)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_0__.IsString)()], Button.prototype, "soundId", void 0);
+__decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_0__.IsDefined)()], Button.prototype, "parent", void 0);
 class Image {
   deserialize(input, parent) {
     this.id = stringify(input.id);
@@ -153404,4 +153319,4 @@ function maybeSchedule(scheduler, execute, subscription) {
 /******/ var __webpack_exports__ = (__webpack_exec__(4429));
 /******/ }
 ]);
-//# sourceMappingURL=main.01fd0d4d4f1ce9fe.js.map
+//# sourceMappingURL=main.83bd0a3b36f3efe3.js.map

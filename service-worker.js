@@ -12,7 +12,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "index.html",
-    "revision": "9c52d309ac777f8c8a29c08a681fd744"
+    "revision": "f2ded35afa6fc29196576388a678dca1"
   },
   {
     "url": "polyfills.6deeb8f9a1f5115d.js",
