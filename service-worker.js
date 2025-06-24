@@ -12,7 +12,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "index.html",
-    "revision": "e9942038b198aa271750f0de2b34cade"
+    "revision": "12697774cbb110bf4c8fc4ad02709562"
   },
   {
     "url": "polyfills.deadd82f2e1ba913.js",
@@ -23,8 +23,8 @@ workbox.precaching.precacheAndRoute([
     "revision": "f97a8651d4eb3c3d1de969665dba251d"
   },
   {
-    "url": "styles.6bdbed85260e9609.css",
-    "revision": "f499dffc3afb56596e175f70f9bed999"
+    "url": "styles.7682d94e119b7018.css",
+    "revision": "f5bc1fd8fbafacb15e95191d3d866a01"
   },
   {
     "url": "assets/icons/icon-128x128.png",
