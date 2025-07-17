@@ -7705,8 +7705,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var class_validator__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! class-validator */ 75375);
 /* harmony import */ var class_validator__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! class-validator */ 97358);
 /* harmony import */ var class_validator__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! class-validator */ 64653);
-/* harmony import */ var class_validator__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! class-validator */ 6968);
-/* harmony import */ var class_validator__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! class-validator */ 56753);
+/* harmony import */ var class_validator__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! class-validator */ 56753);
+/* harmony import */ var class_validator__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! class-validator */ 6968);
 /* harmony import */ var _errors__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./errors */ 62415);
 /* harmony import */ var _custom_validation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./custom-validation */ 13719);
 var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
@@ -7747,7 +7747,7 @@ class Grid {
 __decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_2__.IsDefined)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_3__.IsInt)()], Grid.prototype, "rows", void 0);
 __decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_2__.IsDefined)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_3__.IsInt)()], Grid.prototype, "columns", void 0);
 __decorate([(0,_custom_validation__WEBPACK_IMPORTED_MODULE_1__.Check2DArray)('columns', 'rows')], Grid.prototype, "order", void 0);
-class LoadBoardAction {
+let LoadBoardAction = class LoadBoardAction {
   deserialize(input) {
     this.id = input.id;
     this.name = input.name;
@@ -7756,13 +7756,12 @@ class LoadBoardAction {
     this.path = input.path;
     return this;
   }
-}
-__decorate([(0,_custom_validation__WEBPACK_IMPORTED_MODULE_1__.OneOf)(['url', 'dataUrl', 'path'], {
-  message: 'Load board should have one of dataUrl, url or path'
-})], LoadBoardAction.prototype, "id", void 0);
+};
 __decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_4__.IsOptional)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_5__.IsUrl)()], LoadBoardAction.prototype, "url", void 0);
 __decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_4__.IsOptional)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_5__.IsUrl)()], LoadBoardAction.prototype, "dataUrl", void 0);
-class Button {
+LoadBoardAction = __decorate([(0,_custom_validation__WEBPACK_IMPORTED_MODULE_1__.OneOf)(['url', 'dataUrl', 'path'])], LoadBoardAction);
+
+let Button = class Button {
   deserialize(input, parent) {
     this.id = stringify(input.id);
     this.label = input.label;
@@ -7788,18 +7787,21 @@ class Button {
   getImage() {
     return this.imageId && this.parent.getImage(this.imageId);
   }
-}
+};
 __decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_6__.IsNotEmpty)({
   message: 'Button id must be specified'
 }), (0,class_validator__WEBPACK_IMPORTED_MODULE_7__.IsString)({
   message: 'Button id must be a string'
 })], Button.prototype, "id", void 0);
-__decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_6__.IsNotEmpty)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_7__.IsString)()], Button.prototype, "label", void 0);
+__decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_4__.IsOptional)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_7__.IsString)()], Button.prototype, "label", void 0);
 __decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_4__.IsOptional)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_7__.IsString)()], Button.prototype, "vocalization", void 0);
 __decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_4__.IsOptional)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_7__.IsString)()], Button.prototype, "imageId", void 0);
 __decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_4__.IsOptional)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_7__.IsString)()], Button.prototype, "soundId", void 0);
+__decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_8__.ValidateNested)()], Button.prototype, "loadBoardAction", void 0);
 __decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_2__.IsDefined)()], Button.prototype, "parent", void 0);
-class Image {
+Button = __decorate([(0,_custom_validation__WEBPACK_IMPORTED_MODULE_1__.OneOf)(['label', 'imageId']), (0,_custom_validation__WEBPACK_IMPORTED_MODULE_1__.OneOf)(['label', 'vocalization', 'soundId', 'actions', 'loadBoardAction'])], Button);
+
+let Image = class Image {
   deserialize(input, parent) {
     this.id = stringify(input.id);
     this.width = input.width;
@@ -7815,10 +7817,8 @@ class Image {
   getDataBlob() {
     return this.parent.imageResolver.getImageData(this.path);
   }
-}
-__decorate([(0,_custom_validation__WEBPACK_IMPORTED_MODULE_1__.OneOf)(['url', 'data', 'path', 'symbol'], {
-  message: 'Image with id "$value" must specifiy data, a url or a path'
-}), (0,class_validator__WEBPACK_IMPORTED_MODULE_7__.IsString)({
+};
+__decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_7__.IsString)({
   message: 'Image id must be a string'
 }), (0,class_validator__WEBPACK_IMPORTED_MODULE_6__.IsNotEmpty)({
   message: 'Image id must be specified'
@@ -7831,7 +7831,9 @@ __decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_4__.IsOptional)()], Imag
 __decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_4__.IsOptional)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_7__.IsString)()], Image.prototype, "path", void 0);
 __decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_2__.IsDefined)()], Image.prototype, "parent", void 0);
 __decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_4__.IsOptional)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_7__.IsString)()], Image.prototype, "svgData", void 0);
-class Sound {
+Image = __decorate([(0,_custom_validation__WEBPACK_IMPORTED_MODULE_1__.OneOf)(['url', 'data', 'path', 'symbol'])], Image);
+
+let Sound = class Sound {
   deserialize(input, parent) {
     this.id = stringify(input.id);
     this.data = input.data;
@@ -7849,18 +7851,18 @@ class Sound {
     }
     return this.data || this.url;
   }
-}
+};
 __decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_6__.IsNotEmpty)({
   message: 'Sound id must be specified'
 }), (0,class_validator__WEBPACK_IMPORTED_MODULE_7__.IsString)({
   message: 'Sound id must be a string'
-}), (0,_custom_validation__WEBPACK_IMPORTED_MODULE_1__.OneOf)(['url', 'data', 'path'], {
-  message: 'Sound with id "$value" must specifiy data, a url or a path'
 })], Sound.prototype, "id", void 0);
 __decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_4__.IsOptional)()], Sound.prototype, "data", void 0);
 __decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_4__.IsOptional)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_5__.IsUrl)()], Sound.prototype, "url", void 0);
 __decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_4__.IsOptional)()], Sound.prototype, "path", void 0);
 __decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_2__.IsDefined)()], Sound.prototype, "parent", void 0);
+Sound = __decorate([(0,_custom_validation__WEBPACK_IMPORTED_MODULE_1__.OneOf)(['url', 'data', 'path'])], Sound);
+
 class OBFBoard {
   deserialize(input) {
     this.format = input.format;
@@ -7872,7 +7874,7 @@ class OBFBoard {
     this.buttons = input.buttons.map(button => new Button().deserialize(button, this));
     this.images = input.images.map(image => new Image().deserialize(image, this));
     this.sounds = input.sounds.map(sound => new Sound().deserialize(sound, this));
-    const errors = (0,class_validator__WEBPACK_IMPORTED_MODULE_8__.validateSync)(this);
+    const errors = (0,class_validator__WEBPACK_IMPORTED_MODULE_9__.validateSync)(this);
     if (errors && errors.length > 0) {
       const all_errors = [];
       errors.forEach(err => all_errors.push(...this.messagesFromError(err)));
@@ -7916,14 +7918,14 @@ __decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_6__.IsNotEmpty)({
   message: 'Board id must be a string'
 })], OBFBoard.prototype, "id", void 0);
 __decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_4__.IsOptional)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_7__.IsString)()], OBFBoard.prototype, "descriptionHtml", void 0);
-__decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_9__.ValidateNested)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_2__.IsDefined)()], OBFBoard.prototype, "grid", void 0);
-__decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_9__.ValidateNested)({
+__decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_8__.ValidateNested)(), (0,class_validator__WEBPACK_IMPORTED_MODULE_2__.IsDefined)()], OBFBoard.prototype, "grid", void 0);
+__decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_8__.ValidateNested)({
   each: true
 }), (0,class_validator__WEBPACK_IMPORTED_MODULE_2__.IsDefined)()], OBFBoard.prototype, "buttons", void 0);
-__decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_9__.ValidateNested)({
+__decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_8__.ValidateNested)({
   each: true
 })], OBFBoard.prototype, "images", void 0);
-__decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_9__.ValidateNested)({
+__decorate([(0,class_validator__WEBPACK_IMPORTED_MODULE_8__.ValidateNested)({
   each: true
 })], OBFBoard.prototype, "sounds", void 0);
 
@@ -14384,7 +14386,7 @@ __webpack_require__.r(__webpack_exports__);
 // IMPORTANT: THIS FILE IS AUTO GENERATED! DO NOT MANUALLY EDIT OR CHECKIN!
 /* tslint:disable */
 const VERSION = {
-  "tag": "DEV 70951379b6b7918175fa3413fbb64aef4f1fc91c"
+  "tag": "DEV 15ec62617e44e66c3b64479d6fb1726766adf243"
 };
 /* tslint:enable */
 
@@ -14402,7 +14404,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   Check2DArray: () => (/* binding */ Check2DArray),
 /* harmony export */   OneOf: () => (/* binding */ OneOf)
 /* harmony export */ });
-/* harmony import */ var class_validator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! class-validator */ 49519);
+/* harmony import */ var class_validator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! class-validator */ 49519);
+/* harmony import */ var _custom_class_validation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./custom-class-validation */ 31824);
 /* ::START::LICENCE::
 Copyright eQualityTime ©2018, ©2019, ©2020, ©2021, ©2022, ©2023, ©2024, ©2025
 This file is part of OVFPlayer.
@@ -14418,30 +14421,33 @@ You should have received a copy of the GNU General Public License
 along with OVFPlayer.  If not, see <https://www.gnu.org/licenses/>.
 ::END::LICENCE:: */
 
-function OneOf(validationProperties, validationOptions) {
-  return function (object, propertyName) {
-    (0,class_validator__WEBPACK_IMPORTED_MODULE_0__.registerDecorator)({
-      name: 'OneOf',
-      target: object.constructor,
-      propertyName: propertyName,
-      constraints: [validationProperties],
-      options: validationOptions,
-      validator: {
-        validate(value, args) {
-          const theObject = args.object;
-          function isValid(element) {
-            const val = theObject[element];
-            return val !== undefined && val !== null;
-          }
-          return args.constraints[0].some(isValid);
+
+function OneOf(validationProperties) {
+  return (0,_custom_class_validation__WEBPACK_IMPORTED_MODULE_0__.registerClassValidator)({
+    name: 'OneOf',
+    constraints: validationProperties,
+    validator: {
+      validate(value, args) {
+        const theObject = args.object;
+        function isValid(element) {
+          const val = theObject[element];
+          return val !== undefined && val !== null && (val['length'] != undefined ? val['length'] > 0 : true);
         }
+        return args.constraints.some(isValid);
+      },
+      defaultMessage(args) {
+        let prefix = args.targetName;
+        if (args.object['id']) {
+          prefix += ' with id "' + args.object['id'] + '"';
+        }
+        return prefix + ' must specify at least one of: ' + args.constraints.join(', ');
       }
-    });
-  };
+    }
+  });
 }
 function Check2DArray(widthProperty, heightProperty, validationOptions) {
   return function (object, propertyName) {
-    (0,class_validator__WEBPACK_IMPORTED_MODULE_0__.registerDecorator)({
+    (0,class_validator__WEBPACK_IMPORTED_MODULE_1__.registerDecorator)({
       name: 'Check2DArray',
       target: object.constructor,
       propertyName: propertyName,
@@ -58974,6 +58980,54 @@ function IsISIN(validationOptions) {
       defaultMessage: (0,_common_ValidateBy__WEBPACK_IMPORTED_MODULE_1__.buildMessage)(eachPrefix => eachPrefix + '$property must be an ISIN (stock/security identifier)', validationOptions)
     }
   }, validationOptions);
+}
+
+/***/ }),
+
+/***/ 31824:
+/*!********************************************!*\
+  !*** ./src/app/custom-class-validation.ts ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   registerClassValidator: () => (/* binding */ registerClassValidator)
+/* harmony export */ });
+/* harmony import */ var class_validator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! class-validator */ 49519);
+/* ::START::LICENCE::
+Copyright eQualityTime ©2018, ©2019, ©2020, ©2021, ©2022, ©2023, ©2024, ©2025
+This file is part of OVFPlayer.
+OVFPlayer is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+OVFPlayer is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with OVFPlayer.  If not, see <https://www.gnu.org/licenses/>.
+::END::LICENCE:: */
+
+/** A helper method to create a new Class-level validation decorator. */
+function registerClassValidator(options) {
+  return function decorateClass(target) {
+    const {
+      name,
+      validator,
+      constraints
+    } = options;
+    (0,class_validator__WEBPACK_IMPORTED_MODULE_0__.registerDecorator)({
+      name,
+      target,
+      propertyName: target.name,
+      constraints,
+      validator
+    });
+    return target;
+  };
 }
 
 /***/ }),
@@ -158519,4 +158573,4 @@ module.exports["default"] = exports.default;
 /******/ var __webpack_exports__ = (__webpack_exec__(84429));
 /******/ }
 ]);
-//# sourceMappingURL=main.38eadf1c84d0a8f1.js.map
+//# sourceMappingURL=main.0a9420ee33b9f198.js.map
