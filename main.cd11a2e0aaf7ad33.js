@@ -6911,119 +6911,119 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function ConfigPageComponent_ng_template_12_Conditional_0_Template(rf, ctx) {
+function ConfigPageComponent_ng_template_14_Conditional_0_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "mat-icon", 50);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "mat-icon", 51);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](1, "error");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
   }
 }
-function ConfigPageComponent_ng_template_12_Template(rf, ctx) {
+function ConfigPageComponent_ng_template_14_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵconditionalCreate"](0, ConfigPageComponent_ng_template_12_Conditional_0_Template, 2, 0, "mat-icon", 50);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](1, "span", 51);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵconditionalCreate"](0, ConfigPageComponent_ng_template_14_Conditional_0_Template, 2, 0, "mat-icon", 51);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](1, "span", 52);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](2, "Board URL");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]();
-    const boardURLCtrl_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵreference"](11);
+    const boardURLCtrl_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵreference"](13);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵconditional"](boardURLCtrl_r2.invalid ? 0 : -1);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵclassProp"]("invalidTab", boardURLCtrl_r2.invalid);
   }
 }
-function ConfigPageComponent_ng_template_28_Conditional_0_Template(rf, ctx) {
+function ConfigPageComponent_ng_template_34_Conditional_0_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "mat-icon", 50);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "mat-icon", 51);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](1, "error");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
   }
 }
-function ConfigPageComponent_ng_template_28_Template(rf, ctx) {
+function ConfigPageComponent_ng_template_34_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵconditionalCreate"](0, ConfigPageComponent_ng_template_28_Conditional_0_Template, 2, 0, "mat-icon", 50);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](1, "span", 52);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵconditionalCreate"](0, ConfigPageComponent_ng_template_34_Conditional_0_Template, 2, 0, "mat-icon", 51);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](1, "span", 53);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](2, "Speechbar behaviour");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]();
-    const speechbarBehaviourCtrl_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵreference"](27);
+    const speechbarBehaviourCtrl_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵreference"](33);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵconditional"](speechbarBehaviourCtrl_r3.invalid ? 0 : -1);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵclassProp"]("invalidTab", speechbarBehaviourCtrl_r3.invalid);
   }
 }
-function ConfigPageComponent_ng_template_40_Conditional_0_Template(rf, ctx) {
+function ConfigPageComponent_ng_template_46_Conditional_0_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "mat-icon", 50);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "mat-icon", 51);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](1, "error");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
   }
 }
-function ConfigPageComponent_ng_template_40_Template(rf, ctx) {
+function ConfigPageComponent_ng_template_46_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵconditionalCreate"](0, ConfigPageComponent_ng_template_40_Conditional_0_Template, 2, 0, "mat-icon", 50);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](1, "span", 53);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵconditionalCreate"](0, ConfigPageComponent_ng_template_46_Conditional_0_Template, 2, 0, "mat-icon", 51);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](1, "span", 54);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](2, "Button press behaviour");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]();
-    const buttonBehaviourCtrl_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵreference"](39);
+    const buttonBehaviourCtrl_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵreference"](45);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵconditional"](buttonBehaviourCtrl_r4.invalid ? 0 : -1);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵclassProp"]("invalidTab", buttonBehaviourCtrl_r4.invalid);
   }
 }
-function ConfigPageComponent_ng_template_58_Conditional_0_Template(rf, ctx) {
+function ConfigPageComponent_ng_template_64_Conditional_0_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "mat-icon", 50);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "mat-icon", 51);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](1, "error");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
   }
 }
-function ConfigPageComponent_ng_template_58_Template(rf, ctx) {
+function ConfigPageComponent_ng_template_64_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵconditionalCreate"](0, ConfigPageComponent_ng_template_58_Conditional_0_Template, 2, 0, "mat-icon", 50);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](1, "span", 54);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵconditionalCreate"](0, ConfigPageComponent_ng_template_64_Conditional_0_Template, 2, 0, "mat-icon", 51);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](1, "span", 55);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](2, "Permanent buttons");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]();
-    const displayedButtonsCtrl_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵreference"](57);
+    const displayedButtonsCtrl_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵreference"](63);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵconditional"](displayedButtonsCtrl_r5.invalid ? 0 : -1);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵclassProp"]("invalidTab", displayedButtonsCtrl_r5.invalid);
   }
 }
-function ConfigPageComponent_ng_template_82_Conditional_0_Template(rf, ctx) {
+function ConfigPageComponent_ng_template_88_Conditional_0_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "mat-icon", 50);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "mat-icon", 51);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](1, "error");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
   }
 }
-function ConfigPageComponent_ng_template_82_Template(rf, ctx) {
+function ConfigPageComponent_ng_template_88_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵconditionalCreate"](0, ConfigPageComponent_ng_template_82_Conditional_0_Template, 2, 0, "mat-icon", 50);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](1, "span", 55);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵconditionalCreate"](0, ConfigPageComponent_ng_template_88_Conditional_0_Template, 2, 0, "mat-icon", 51);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](1, "span", 56);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](2, "Voice Settings");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]();
-    const voiceConfigCtrl_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵreference"](81);
+    const voiceConfigCtrl_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵreference"](87);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵconditional"](voiceConfigCtrl_r6.invalid ? 0 : -1);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵclassProp"]("invalidTab", voiceConfigCtrl_r6.invalid);
   }
 }
-function ConfigPageComponent_For_90_Template(rf, ctx) {
+function ConfigPageComponent_For_96_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "mat-option", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "mat-option", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
   }
@@ -7034,45 +7034,45 @@ function ConfigPageComponent_For_90_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"](" ", voice_r7.name + " (" + voice_r7.lang + ")", " ");
   }
 }
-function ConfigPageComponent_ng_template_93_Conditional_0_Template(rf, ctx) {
+function ConfigPageComponent_ng_template_99_Conditional_0_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "mat-icon", 50);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "mat-icon", 51);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](1, "error");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
   }
 }
-function ConfigPageComponent_ng_template_93_Template(rf, ctx) {
+function ConfigPageComponent_ng_template_99_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵconditionalCreate"](0, ConfigPageComponent_ng_template_93_Conditional_0_Template, 2, 0, "mat-icon", 50);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](1, "span", 56);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵconditionalCreate"](0, ConfigPageComponent_ng_template_99_Conditional_0_Template, 2, 0, "mat-icon", 51);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](1, "span", 57);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](2, "Scanning");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]();
-    const scanningCtrl_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵreference"](92);
+    const scanningCtrl_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵreference"](98);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵconditional"](scanningCtrl_r8.invalid ? 0 : -1);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵclassProp"]("invalidTab", scanningCtrl_r8.invalid);
   }
 }
-function ConfigPageComponent_ng_template_104_Conditional_0_Template(rf, ctx) {
+function ConfigPageComponent_ng_template_110_Conditional_0_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "mat-icon", 50);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "mat-icon", 51);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](1, "error");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
   }
 }
-function ConfigPageComponent_ng_template_104_Template(rf, ctx) {
+function ConfigPageComponent_ng_template_110_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵconditionalCreate"](0, ConfigPageComponent_ng_template_104_Conditional_0_Template, 2, 0, "mat-icon", 50);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](1, "span", 57);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵconditionalCreate"](0, ConfigPageComponent_ng_template_110_Conditional_0_Template, 2, 0, "mat-icon", 51);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](1, "span", 58);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](2, "Appearance");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]();
-    const appearanceCtrl_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵreference"](103);
+    const appearanceCtrl_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵreference"](109);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵconditional"](appearanceCtrl_r9.invalid ? 0 : -1);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵclassProp"]("invalidTab", appearanceCtrl_r9.invalid);
@@ -7107,7 +7107,23 @@ let ConfigPageComponent = /*#__PURE__*/(() => {
     copyConfig(config) {
       return JSON.parse(JSON.stringify(config));
     }
+    refreshBoard() {
+      this.boardCache.clear().subscribe({
+        next: () => {
+          this.exitConfig();
+        },
+        error: error => {
+          // not much we can do really
+          console.error('Error clearing cache', error);
+          this.exitConfig();
+        }
+      });
+    }
+    exitConfig() {
+      this.router.navigate(['/main']);
+    }
     save() {
+      const clearCache = this.configService.boardURL != this.boardURL;
       this.configService.boardURL = this.boardURL;
       this.configService.displayedButtons = this.displayedButtons;
       this.configService.showIconsInSpeechbar = this.showIconsInSpeechbar;
@@ -7117,17 +7133,12 @@ let ConfigPageComponent = /*#__PURE__*/(() => {
       this.configService.buttonBehaviourConfig = this.buttonBehaviourConfig;
       this.configService.voiceConfig = this.voiceConfig;
       // TODO: some kind of validation
-      // clear local cache of page to force a refresh
-      this.boardCache.clear().subscribe({
-        next: () => {
-          this.router.navigate(['/main']);
-        },
-        error: error => {
-          // not much we can do really
-          console.error('Error clearing cache', error);
-          this.router.navigate(['/main']);
-        }
-      });
+      // clear local cache of page to force a refresh if board url has changed
+      if (clearCache) {
+        this.refreshBoard();
+      } else {
+        this.exitConfig(); // otherwise just go back to main page
+      }
     }
     copyToClipboard() {
       const selBox = document.createElement('textarea');
@@ -7163,9 +7174,9 @@ let ConfigPageComponent = /*#__PURE__*/(() => {
     static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineComponent"]({
       type: ConfigPageComponent,
       selectors: [["app-config-page"]],
-      decls: 120,
+      decls: 126,
       vars: 23,
-      consts: [["configForm", "ngForm"], ["boardURLCtrl", "ngModelGroup"], ["speechbarBehaviourCtrl", "ngModelGroup"], ["buttonBehaviourCtrl", "ngModelGroup"], ["displayedButtonsCtrl", "ngModelGroup"], ["voiceConfigCtrl", "ngModelGroup"], ["scanningCtrl", "ngModelGroup"], ["appearanceCtrl", "ngModelGroup"], ["ngSlider", ""], ["ngSliderThumb", "matSliderThumb"], ["appearance", "outlined", 1, "formCard"], [1, "formTitle"], [3, "ngSubmit"], [1, "formButtons"], ["type", "submit", "mat-raised-button", "", "color", "primary", 3, "disabled"], ["ngModelGroup", "boardURL"], ["mat-tab-label", ""], [1, "formContainer"], ["appearance", "outlined"], [1, "formInputField"], ["required", "", "matInput", "", "name", "boardURL", "placeholder", "URL for obf/obz file", 1, "formInputUrl", 3, "ngModelChange", "ngModel"], [1, "clickable", 3, "click"], [1, "material-icons"], ["id", "useCK20", "mat-raised-button", "", "type", "button", 3, "click"], ["id", "useCK12", "mat-raised-button", "", "type", "button", 3, "click"], ["ngModelGroup", "speechbarBehaviour"], ["name", "speakOnSpeechbarClick", 3, "ngModelChange", "ngModel"], [1, "formLabel"], ["name", "showIconsInSpeechbar", 3, "ngModelChange", "ngModel"], ["ngModelGroup", "buttonBehaviour"], ["name", "buttonBehaviourConfig.speakOnTrigger", 3, "ngModelChange", "ngModel"], ["name", "buttonBehaviourConfig.triggerEvent", 3, "ngModelChange", "ngModel"], [3, "value"], ["ngModelGroup", "displayedButtons"], ["name", "showSpeakButton", 3, "ngModelChange", "ngModel"], ["name", "showBackspaceButton", 3, "ngModelChange", "ngModel"], ["name", "showClearButton", 3, "ngModelChange", "ngModel"], ["name", "showHomeButton", 3, "ngModelChange", "ngModel"], ["name", "showBackButton", 3, "ngModelChange", "ngModel"], ["ngModelGroup", "voiceConfig"], [1, "formInputSelection"], ["name", "userVoice", "placeholder", "User Voice", 3, "ngModelChange", "ngModel"], ["ngModelGroup", "scanning"], ["name", "scanningEnabled", 3, "ngModelChange", "ngModel"], ["type", "number", "name", "scanningTime", "matInput", "", "placeholder", "Time to stay on each scanned item (in milliseconds)", 3, "ngModelChange", "required", "ngModel"], ["ngModelGroup", "appearance"], ["min", "1", "max", "10", "step", "1", "color", "Primary", "thumbLabel", "true"], ["matSliderThumb", "", "name", "borderThickness", 3, "ngModelChange", "ngModel"], [1, "borderExample"], ["name", "highContrastText", 3, "ngModelChange", "ngModel"], [1, "invalidTab"], ["name", "boardURL"], ["name", "speechbarBehaviour"], ["name", "buttonBehaviour"], ["name", "displayedButtons"], ["name", "voiceConfig"], ["name", "scanning"], ["name", "appearance"]],
+      consts: [["configForm", "ngForm"], ["boardURLCtrl", "ngModelGroup"], ["speechbarBehaviourCtrl", "ngModelGroup"], ["buttonBehaviourCtrl", "ngModelGroup"], ["displayedButtonsCtrl", "ngModelGroup"], ["voiceConfigCtrl", "ngModelGroup"], ["scanningCtrl", "ngModelGroup"], ["appearanceCtrl", "ngModelGroup"], ["ngSlider", ""], ["ngSliderThumb", "matSliderThumb"], ["appearance", "outlined", 1, "formCard"], [1, "formTitle"], [3, "ngSubmit"], [1, "formButtons"], ["type", "submit", "mat-raised-button", "", "color", "primary", 3, "disabled"], ["type", "button", "mat-raised-button", "", "color", "primary", 3, "click"], ["ngModelGroup", "boardURL"], ["mat-tab-label", ""], [1, "formContainer"], ["appearance", "outlined"], [1, "formInputField"], ["required", "", "matInput", "", "name", "boardURL", "placeholder", "URL for obf/obz file", 1, "formInputUrl", 3, "ngModelChange", "ngModel"], [1, "clickable", 3, "click"], [1, "material-icons"], ["id", "useCK20", "mat-raised-button", "", "type", "button", 3, "click"], ["id", "useCK12", "mat-raised-button", "", "type", "button", 3, "click"], ["ngModelGroup", "speechbarBehaviour"], ["name", "speakOnSpeechbarClick", 3, "ngModelChange", "ngModel"], [1, "formLabel"], ["name", "showIconsInSpeechbar", 3, "ngModelChange", "ngModel"], ["ngModelGroup", "buttonBehaviour"], ["name", "buttonBehaviourConfig.speakOnTrigger", 3, "ngModelChange", "ngModel"], ["name", "buttonBehaviourConfig.triggerEvent", 3, "ngModelChange", "ngModel"], [3, "value"], ["ngModelGroup", "displayedButtons"], ["name", "showSpeakButton", 3, "ngModelChange", "ngModel"], ["name", "showBackspaceButton", 3, "ngModelChange", "ngModel"], ["name", "showClearButton", 3, "ngModelChange", "ngModel"], ["name", "showHomeButton", 3, "ngModelChange", "ngModel"], ["name", "showBackButton", 3, "ngModelChange", "ngModel"], ["ngModelGroup", "voiceConfig"], [1, "formInputSelection"], ["name", "userVoice", "placeholder", "User Voice", 3, "ngModelChange", "ngModel"], ["ngModelGroup", "scanning"], ["name", "scanningEnabled", 3, "ngModelChange", "ngModel"], ["type", "number", "name", "scanningTime", "matInput", "", "placeholder", "Time to stay on each scanned item (in milliseconds)", 3, "ngModelChange", "required", "ngModel"], ["ngModelGroup", "appearance"], ["min", "1", "max", "10", "step", "1", "color", "Primary", "thumbLabel", "true"], ["matSliderThumb", "", "name", "borderThickness", 3, "ngModelChange", "ngModel"], [1, "borderExample"], ["name", "highContrastText", 3, "ngModelChange", "ngModel"], [1, "invalidTab"], ["name", "boardURL"], ["name", "speechbarBehaviour"], ["name", "buttonBehaviour"], ["name", "displayedButtons"], ["name", "voiceConfig"], ["name", "scanning"], ["name", "appearance"]],
       template: function ConfigPageComponent_Template(rf, ctx) {
         if (rf & 1) {
           const _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵgetCurrentView"]();
@@ -7179,199 +7190,216 @@ let ConfigPageComponent = /*#__PURE__*/(() => {
           });
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](6, "div", 13)(7, "button", 14);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](8, "Save");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](9, "button", 15);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function ConfigPageComponent_Template_button_click_9_listener() {
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r1);
+            return _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵresetView"](ctx.exitConfig());
+          });
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](10, "Cancel");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](9, "mat-tab-group")(10, "mat-tab", 15, 1);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](12, ConfigPageComponent_ng_template_12_Template, 3, 3, "ng-template", 16);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](13, "div", 17)(14, "mat-card", 18)(15, "mat-form-field", 19)(16, "input", 20);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_input_ngModelChange_16_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](11, "mat-tab-group")(12, "mat-tab", 16, 1);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](14, ConfigPageComponent_ng_template_14_Template, 3, 3, "ng-template", 17);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](15, "div", 18)(16, "mat-card", 19)(17, "mat-form-field", 20)(18, "input", 21);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_input_ngModelChange_18_listener($event) {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r1);
             _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayBindingSet"](ctx.boardURL, $event) || (ctx.boardURL = $event);
             return _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵresetView"]($event);
           });
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](17, "div", 21);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function ConfigPageComponent_Template_div_click_17_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](19, "div", 22);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function ConfigPageComponent_Template_div_click_19_listener() {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r1);
             return _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵresetView"](ctx.copyToClipboard());
           });
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](18, "i", 22);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](19, "link");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](20, "i", 23);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](21, "link");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](20, "\u00A0Create link");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](22, "\u00A0Create link ");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](21, "div")(22, "button", 23);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function ConfigPageComponent_Template_button_click_22_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](23, "div", 22);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function ConfigPageComponent_Template_div_click_23_listener() {
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r1);
+            return _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵresetView"](ctx.refreshBoard());
+          });
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](24, "i", 23);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](25, "refresh");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](26, "\u00A0Reload board without changes");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](27, "div")(28, "button", 24);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function ConfigPageComponent_Template_button_click_28_listener() {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r1);
             return _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵresetView"](ctx.resetToCK20());
           });
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](23, "Use default CK20 board");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](29, "Use default CK20 board");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](24, "button", 24);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function ConfigPageComponent_Template_button_click_24_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](30, "button", 25);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function ConfigPageComponent_Template_button_click_30_listener() {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r1);
             return _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵresetView"](ctx.resetToCK12());
           });
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](25, "Use default CK12 board");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](31, "Use default CK12 board");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](26, "mat-tab", 25, 2);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](28, ConfigPageComponent_ng_template_28_Template, 3, 3, "ng-template", 16);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](29, "div", 17)(30, "mat-card", 18)(31, "mat-checkbox", 26);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_mat_checkbox_ngModelChange_31_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](32, "mat-tab", 26, 2);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](34, ConfigPageComponent_ng_template_34_Template, 3, 3, "ng-template", 17);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](35, "div", 18)(36, "mat-card", 19)(37, "mat-checkbox", 27);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_mat_checkbox_ngModelChange_37_listener($event) {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r1);
             _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayBindingSet"](ctx.speakOnSpeechbarClick, $event) || (ctx.speakOnSpeechbarClick = $event);
             return _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵresetView"]($event);
           });
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](32, "span", 27);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](33, "Speak when speechbar is clicked");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](38, "span", 28);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](39, "Speak when speechbar is clicked");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](34, "mat-card", 18)(35, "mat-checkbox", 28);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_mat_checkbox_ngModelChange_35_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](40, "mat-card", 19)(41, "mat-checkbox", 29);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_mat_checkbox_ngModelChange_41_listener($event) {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r1);
             _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayBindingSet"](ctx.showIconsInSpeechbar, $event) || (ctx.showIconsInSpeechbar = $event);
             return _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵresetView"]($event);
           });
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](36, "span", 27);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](37, "Display button images and labels in speechbar (instead of vocalisation text)");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](42, "span", 28);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](43, "Display button images and labels in speechbar (instead of vocalisation text)");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](38, "mat-tab", 29, 3);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](40, ConfigPageComponent_ng_template_40_Template, 3, 3, "ng-template", 16);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](41, "div", 17)(42, "mat-card", 18)(43, "mat-checkbox", 30);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_mat_checkbox_ngModelChange_43_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](44, "mat-tab", 30, 3);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](46, ConfigPageComponent_ng_template_46_Template, 3, 3, "ng-template", 17);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](47, "div", 18)(48, "mat-card", 19)(49, "mat-checkbox", 31);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_mat_checkbox_ngModelChange_49_listener($event) {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r1);
             _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayBindingSet"](ctx.buttonBehaviourConfig.speakOnTrigger, $event) || (ctx.buttonBehaviourConfig.speakOnTrigger = $event);
             return _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵresetView"]($event);
           });
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](44, "span", 27);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](45, "Speak when button is pressed (as well as adding to speechbar)");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](50, "span", 28);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](51, "Speak when button is pressed (as well as adding to speechbar)");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](46, "mat-card", 18)(47, "mat-radio-group", 31);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_mat_radio_group_ngModelChange_47_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](52, "mat-card", 19)(53, "mat-radio-group", 32);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_mat_radio_group_ngModelChange_53_listener($event) {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r1);
             _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayBindingSet"](ctx.buttonBehaviourConfig.triggerEvent, $event) || (ctx.buttonBehaviourConfig.triggerEvent = $event);
             return _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵresetView"]($event);
           });
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](48, "div", 27);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](49, "Event to use to trigger button usage");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](54, "div", 28);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](55, "Event to use to trigger button usage");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](50, "mat-radio-button", 32);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](51, "Full click");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](56, "mat-radio-button", 33);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](57, "Full click");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](52, "mat-radio-button", 32);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](53, "Release");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](58, "mat-radio-button", 33);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](59, "Release");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](54, "mat-radio-button", 32);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](55, "Press");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](60, "mat-radio-button", 33);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](61, "Press");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](56, "mat-tab", 33, 4);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](58, ConfigPageComponent_ng_template_58_Template, 3, 3, "ng-template", 16);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](59, "div", 17)(60, "mat-card", 18)(61, "mat-checkbox", 34);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_mat_checkbox_ngModelChange_61_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](62, "mat-tab", 34, 4);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](64, ConfigPageComponent_ng_template_64_Template, 3, 3, "ng-template", 17);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](65, "div", 18)(66, "mat-card", 19)(67, "mat-checkbox", 35);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_mat_checkbox_ngModelChange_67_listener($event) {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r1);
             _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayBindingSet"](ctx.displayedButtons.showSpeakButton, $event) || (ctx.displayedButtons.showSpeakButton = $event);
             return _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵresetView"]($event);
           });
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](62, "span", 27);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](63, "Speak button always shown");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](68, "span", 28);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](69, "Speak button always shown");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](64, "mat-card", 18)(65, "mat-checkbox", 35);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_mat_checkbox_ngModelChange_65_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](70, "mat-card", 19)(71, "mat-checkbox", 36);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_mat_checkbox_ngModelChange_71_listener($event) {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r1);
             _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayBindingSet"](ctx.displayedButtons.showBackspaceButton, $event) || (ctx.displayedButtons.showBackspaceButton = $event);
             return _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵresetView"]($event);
           });
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](66, "span", 27);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](67, "Backspace button always shown");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](72, "span", 28);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](73, "Backspace button always shown");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](68, "mat-card", 18)(69, "mat-checkbox", 36);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_mat_checkbox_ngModelChange_69_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](74, "mat-card", 19)(75, "mat-checkbox", 37);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_mat_checkbox_ngModelChange_75_listener($event) {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r1);
             _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayBindingSet"](ctx.displayedButtons.showClearButton, $event) || (ctx.displayedButtons.showClearButton = $event);
             return _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵresetView"]($event);
           });
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](70, "span", 27);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](71, "Clear button always shown");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](76, "span", 28);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](77, "Clear button always shown");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](72, "mat-card", 18)(73, "mat-checkbox", 37);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_mat_checkbox_ngModelChange_73_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](78, "mat-card", 19)(79, "mat-checkbox", 38);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_mat_checkbox_ngModelChange_79_listener($event) {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r1);
             _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayBindingSet"](ctx.displayedButtons.showHomeButton, $event) || (ctx.displayedButtons.showHomeButton = $event);
             return _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵresetView"]($event);
           });
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](74, "span", 27);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](75, "Home button always shown");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](80, "span", 28);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](81, "Home button always shown");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](76, "mat-card", 18)(77, "mat-checkbox", 38);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_mat_checkbox_ngModelChange_77_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](82, "mat-card", 19)(83, "mat-checkbox", 39);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_mat_checkbox_ngModelChange_83_listener($event) {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r1);
             _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayBindingSet"](ctx.displayedButtons.showBackButton, $event) || (ctx.displayedButtons.showBackButton = $event);
             return _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵresetView"]($event);
           });
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](78, "span", 27);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](79, "Back button always shown");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](84, "span", 28);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](85, "Back button always shown");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](80, "mat-tab", 39, 5);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](82, ConfigPageComponent_ng_template_82_Template, 3, 3, "ng-template", 16);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](83, "div", 17)(84, "mat-card", 18)(85, "mat-form-field", 40)(86, "mat-select", 41);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_mat_select_ngModelChange_86_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](86, "mat-tab", 40, 5);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](88, ConfigPageComponent_ng_template_88_Template, 3, 3, "ng-template", 17);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](89, "div", 18)(90, "mat-card", 19)(91, "mat-form-field", 41)(92, "mat-select", 42);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_mat_select_ngModelChange_92_listener($event) {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r1);
             _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayBindingSet"](ctx.voiceConfig.userVoice, $event) || (ctx.voiceConfig.userVoice = $event);
             return _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵresetView"]($event);
           });
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](87, "mat-option");
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](88, "Use default");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](93, "mat-option");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](94, "Use default");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrepeaterCreate"](89, ConfigPageComponent_For_90_Template, 2, 2, "mat-option", 32, _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrepeaterTrackByIdentity"]);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrepeaterCreate"](95, ConfigPageComponent_For_96_Template, 2, 2, "mat-option", 33, _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrepeaterTrackByIdentity"]);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](91, "mat-tab", 42, 6);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](93, ConfigPageComponent_ng_template_93_Template, 3, 3, "ng-template", 16);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](94, "div", 17)(95, "mat-card", 18)(96, "mat-checkbox", 43);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_mat_checkbox_ngModelChange_96_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](97, "mat-tab", 43, 6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](99, ConfigPageComponent_ng_template_99_Template, 3, 3, "ng-template", 17);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](100, "div", 18)(101, "mat-card", 19)(102, "mat-checkbox", 44);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_mat_checkbox_ngModelChange_102_listener($event) {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r1);
             _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayBindingSet"](ctx.scanningConfig.enabled, $event) || (ctx.scanningConfig.enabled = $event);
             return _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵresetView"]($event);
           });
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](97, "span", 27);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](98, "Enable scanning");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](103, "span", 28);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](104, "Enable scanning");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](99, "mat-card", 18)(100, "mat-form-field", 19)(101, "input", 44);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_input_ngModelChange_101_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](105, "mat-card", 19)(106, "mat-form-field", 20)(107, "input", 45);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_input_ngModelChange_107_listener($event) {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r1);
             _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayBindingSet"](ctx.scanningConfig.time, $event) || (ctx.scanningConfig.time = $event);
             return _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵresetView"]($event);
           });
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](102, "mat-tab", 45, 7);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](104, ConfigPageComponent_ng_template_104_Template, 3, 3, "ng-template", 16);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](105, "div", 17)(106, "mat-card", 18)(107, "div")(108, "mat-slider", 46, 8)(110, "input", 47, 9);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_input_ngModelChange_110_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](108, "mat-tab", 46, 7);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](110, ConfigPageComponent_ng_template_110_Template, 3, 3, "ng-template", 17);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](111, "div", 18)(112, "mat-card", 19)(113, "div")(114, "mat-slider", 47, 8)(116, "input", 48, 9);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_input_ngModelChange_116_listener($event) {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r1);
             _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayBindingSet"](ctx.appearanceConfig.borderThickness, $event) || (ctx.appearanceConfig.borderThickness = $event);
             return _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵresetView"]($event);
           });
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](112, "div", 48);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](113, "Border Thickness");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](118, "div", 49);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](119, "Border Thickness");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](114, "mat-card", 18)(115, "mat-checkbox", 49);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_mat_checkbox_ngModelChange_115_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](120, "mat-card", 19)(121, "mat-checkbox", 50);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayListener"]("ngModelChange", function ConfigPageComponent_Template_mat_checkbox_ngModelChange_121_listener($event) {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r1);
             _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayBindingSet"](ctx.appearanceConfig.highContrastText, $event) || (ctx.appearanceConfig.highContrastText = $event);
             return _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵresetView"]($event);
           });
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](116, "span", 27);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](117, "High contrast text");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](122, "span", 28);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](123, "High contrast text");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()()()()()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](118, "p");
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](119);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](124, "p");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](125);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
         }
         if (rf & 2) {
           const configForm_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵreference"](5);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](7);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("disabled", !configForm_r10.form.valid);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](9);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](11);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayProperty"]("ngModel", ctx.boardURL);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](15);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](19);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayProperty"]("ngModel", ctx.speakOnSpeechbarClick);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](4);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtwoWayProperty"]("ngModel", ctx.showIconsInSpeechbar);
@@ -14386,7 +14414,7 @@ __webpack_require__.r(__webpack_exports__);
 // IMPORTANT: THIS FILE IS AUTO GENERATED! DO NOT MANUALLY EDIT OR CHECKIN!
 /* tslint:disable */
 const VERSION = {
-  "tag": "DEV 15ec62617e44e66c3b64479d6fb1726766adf243"
+  "tag": "DEV 4eb28063a508873b8c185658bacf9d40ff0f580c"
 };
 /* tslint:enable */
 
@@ -158573,4 +158601,4 @@ module.exports["default"] = exports.default;
 /******/ var __webpack_exports__ = (__webpack_exec__(84429));
 /******/ }
 ]);
-//# sourceMappingURL=main.0a9420ee33b9f198.js.map
+//# sourceMappingURL=main.cd11a2e0aaf7ad33.js.map
