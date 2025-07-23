@@ -14414,7 +14414,7 @@ __webpack_require__.r(__webpack_exports__);
 // IMPORTANT: THIS FILE IS AUTO GENERATED! DO NOT MANUALLY EDIT OR CHECKIN!
 /* tslint:disable */
 const VERSION = {
-  "tag": "DEV 4eb28063a508873b8c185658bacf9d40ff0f580c"
+  "tag": "DEV 8fda6803c415000e7c9a72fa27d07db91946b39d"
 };
 /* tslint:enable */
 
@@ -133375,7 +133375,6 @@ __webpack_require__.r(__webpack_exports__);
 class ButtonFacade extends _obfboard__WEBPACK_IMPORTED_MODULE_0__.Button {
   constructor(button) {
     super();
-    this.appendages = [];
     // copies all the button properties into this "facade" because we can't override properties with accessors
     this.deserialize(JSON.parse(JSON.stringify(button, (key, value) => {
       if (key === "parent") {
@@ -133385,15 +133384,8 @@ class ButtonFacade extends _obfboard__WEBPACK_IMPORTED_MODULE_0__.Button {
     })), button.parent); // deserializing fixes the parent
   }
   append(appendage) {
-    this.appendages.push(appendage);
-    this.update();
-  }
-  augment(initial) {
-    return [initial].concat(this.appendages).join('');
-  }
-  update() {
-    this.label = this.augment(this.label);
-    this.vocalization = this.vocalization ? this.augment(this.vocalization) : this.vocalization;
+    this.label = this.label ? this.label + appendage : this.label;
+    this.vocalization = this.vocalization ? this.vocalization + appendage : this.vocalization;
   }
 }
 let SpeechbarService = /*#__PURE__*/(() => {
@@ -158601,4 +158593,4 @@ module.exports["default"] = exports.default;
 /******/ var __webpack_exports__ = (__webpack_exec__(84429));
 /******/ }
 ]);
-//# sourceMappingURL=main.cd11a2e0aaf7ad33.js.map
+//# sourceMappingURL=main.d5c83231e62cd272.js.map
